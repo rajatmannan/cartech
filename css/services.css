@@ -124,7 +124,7 @@ nav a:nth-child(1) {
     flex-direction: column;
     width: 80%;
     box-shadow: 2px 2px 6px #999;
-    margin: 4% 0;
+    margin: 4% 10%;
 }
 .serv-plate span {
     color: orangered;
@@ -463,3 +463,4 @@ footer div h1 {
     padding: 8px;
 }
 }
+
