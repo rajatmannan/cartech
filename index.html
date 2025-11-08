@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CarTech | Mobile Car Repair in Toronto | GTA</title>
+        <meta name="description" content="Mobile Car Service and repair at your doorstep in GTA, Toronto, Mississauga, Bramptom and all over Ontario for tire replacement, oil change, air filter change and battery replacement">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://kit.fontawesome.com/3413927b1a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <button id="ham">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="mynav">
+                <a id="nav-close" href="Javascript:void(0)">X</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="services.html">Services</a>
+            </nav>
+            <a id="cartech-logo" href="https://car-tech.ca"><img src="graphics/car-tech-logo.png" alt="Cartech Logo Ontario"></a>
+            <div id="login">
+                <a href="#"><i class="fa-regular fa-user"></i><span>Login/Sign Up</span></a>
+            </div>
+        </header>
+        <script>
+            document.getElementById('ham').addEventListener('click', function openNav() {
+                document.getElementById('mynav').style.height = "100vh";
+            });
+            document.getElementById('nav-close').addEventListener('click', function closeNav() {
+                document.getElementById('mynav').style.height = "0vh";
+            });
+        </script>
+        <div id="cartech-landing-cover">
+            <h3>Drive Safe & Confident</h3>
+            <h1 id="newHead">Car Repair on your Doorstep</h1>
+            <h2>Mobile Car and Tire Repair in GTA</h2>
+            <h4>(Toronto, Mississauga, Brampton)</h4>
+            <div id="to-serv">
+                <a href="services.html">Tires Swap</a>
+                <a href="services.html">Oil Change</a>
+                <a href="services.html">Battery Replacement</a>
+                <a href="services.html">Oil/Air Filter Change</a>
+                <a href="services.html">Roadside Tire Repair</a>
+            </div>
+        </div>
+        <script>
+            let headings = ["Car Repair on your Doorstep", "Mobile Car Repair in Ontario", "Repairing Tires to Engine & more"]
+            function changeNow() {
+                let x = Math.floor(Math.random() * 3);
+                document.getElementById('newHead').textContent = headings[x];
+                document.getElementById('newHead').style.transition = "1s";
+            }
+            setInterval(changeNow, 1800);
+        </script>
+        <div id="section2">
+            <div>
+                <h1>On-Site Tire Repair in</h1>
+                <h2>Greater Toronto Area</h2>
+                <h5>Trusted Car Repair Experts serving in Toronto, Brampton, Mississauga and Beyond</h5>
+                <p>Schedule On-Demand Tires and Car Repair Services with CarTech</p>
+                <a href="#">Ask free Consultation</a>
+            </div>
+            <div id="secImg">
+                <img src="graphics/car-repair-toronto.jpg" alt="CarTech Toronto Remote Mobile Car Repair">
+            </div>
+        </div>
+        <div id="membership-cartech">
+            <h2>Get <span>Membership</span> Discount</h2>
+            <h3>upto $50 CAD</h3>
+            <h6>($10 off on each for first 5 services)</h6>
+            <a href="#">Get<br>Membership</a>
+        </div>
+        <div id="serv-home">
+            <div id="banner-serv">
+                <div>
+                    <a href="Tel:+13657785398">Get Mechanic Now</a>
+                    <h2>Fast and Reliabale Service Anywhere in GTA</h2>
+                    <a href="Tel:+13657785398">Free Consultation</a>
+                </div>                
+                <img src="graphics/Car-Tech-logo.png" alt="Car Repair near me mississiuaga">
+            </div>
+            <div class="host-serv">
+                <h2>Car Service & ECU Update at your doorstep</h2>
+                <img src="graphics/oil-change-in-mississuaga.jpg" alt="Oil change and Filter in Mississauga and Brampton from Cartech">
+                <p>On-site diagnostics and small repairs without the garage visit all over Ontario</p>
+                <a href="Tel: +15193017933">Call Now</a>
+            </div>    
+            <div class="host-serv">
+                <h2>Roadside Tire Repair</h2>
+                <img src="graphics/tire-storage-in-brampton.jpg" alt="Roadside Tire Repair in Mississuaga and Brampton">
+                <p>Quick roadside tire changes and repairs all over Toronto, Brampton and Mississuaga</p>
+                <a href="Tel: +15193017933">Call Now</a>
+            </div>
+            <div class="host-serv">
+                <h2>Battery Jump-Start & Replacement</h2>
+                <img src="graphics/battery-replacement-brampton.jpg" alt="Car Battery replacement in brampton">
+                <p>Get your car started safely anytime</p>
+                <a href="Tel: +15193017933">Call Now</a>
+            </div>
+        </div>
+        <div id="newsletter">
+            <div id="newspanel">
+                <h3>Get in Touch with Cartech</h3>
+                <h4>Latest updates and automotive trends in Toronto, Mississuaga, Brampton & beyond</h4>
+                <h3>Subscribe to Cartech Newsletter</h3>
+                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                    <label>Email or Phone</label>
+                    <input type="email" name="source" placeholder="rajat@email.com | 5555 55555">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div id="cartech">
+                <h1>CARTECH</h1>
+                <h2>Ontario Based Mobile Car & Tire Repair Service</h2>
+                <h3>Serving in all over GTA (Toronto, Mississuaga, Brampton, Caledon, Etobicoke, and beyond)</h3>
+                <div id="contact-cartech">
+                    <h3>Contact Cartech:</h3>
+                    <p><i class="fa-solid fa-phone"></i> +1 (519) 301 7933</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@car-tech.ca</p>
+                    <div>
+                        <a href="https://www.instagram.com/cartech.ca?igsh=MWI0cnFtcnlwdHlidA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@cartech6?_t=ZS-90O5yadBwfJ&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/share/17MmHEFKXm/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>    
+            <div class="nav-foot">
+                <a href="#">Get Membership</a>
+                <a href="#">Login</a>
+                <a href="#">Signup</a>
+                <a href="about.html">More about Cartech</a>
+            </div>
+            <div class="nav-foot">
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="#footer">Contact</a>
+                <a href="about.html#faq">FAQ</a>
+                <a href="taq.html">Terms & Conditions</a>
+                <a href="taq.html">Privacy Policy</a>
+            </div>
+            <br>
+        </footer>  
+        <div id="stamp">
+            <p><span>&#169;</span><span id="cur-year"></span></p>
+            <p><span>Developed & Managed by <a href="https://mannancomputers.com">Mannan Computers | IT Consultancy & Digital Solutions</a></span></p>
+        </div>
+        <script>
+            let text = new Date().getFullYear();
+            document.getElementById('cur-year').textContent = text;
+        </script>
+    </body>
+</html>

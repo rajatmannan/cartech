@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About | Cartech | Mobile Car Repair in Toronto</title>
+        <meta name="description" content="Cartech is Mobile Car and Tire Repair company in Greater Toronto Area, Brampton, Mississuaga and other regions in Ontario that helps you in battery replacement, oil filter change and tire swaping">
+        <link rel="stylesheet" href="css/about.css">
+        <script src="https://kit.fontawesome.com/3413927b1a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <button id="ham">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="mynav">
+                <a id="nav-close" href="Javascript:void(0)">X</a>
+                <a href="index.html">Cartech</a>
+                <a href="index.html#footer">Contact</a>
+                <a href="services.html">Services</a>
+            </nav>
+            <a id="cartech-logo" href="https://car-tech.ca"><img src="graphics/car-tech-logo.png" alt="Cartech Logo Ontario"></a>
+            <div id="login">
+                <a href="#"><i class="fa-regular fa-user"></i><span>Login/Sign Up</span></a>
+            </div>
+        </header>
+        <script>
+            document.getElementById('ham').addEventListener('click', function openNav() {
+                document.getElementById('mynav').style.height = "100vh";
+            });
+            document.getElementById('nav-close').addEventListener('click', function closeNav() {
+                document.getElementById('mynav').style.height = "0vh";
+            });
+        </script>
+        <div id="about-sec">
+            <div id="about-head">
+                <h1>About | Cartech</h1>
+                <h2>Mobile Car & Tire Repair in Greater Toronto Area</h2>
+                <h3>(Available in Brampton, Mississauga, Toronto, Caledon, Etobicoke, and other regions of Ontario)</h3>
+            </div>
+            <div id="about-para">
+                <p>At Cartech, we understand that car problems can disrupt your day. That’s why we bring professional mobile car repair, servicing, and tire swap services directly to your location — whether at home, work, or on the road</p>
+                <p>Based in Ontario, our team of certified technicians specializes in quick, reliable, and convenient vehicle maintenance. From emergency repairs to routine servicing and seasonal tire swaps, we make car care easy, efficient, and stress-free.</p>
+                <h3>Available in</h3>
+                <ul>
+                    <li>Toronto</li>
+                    <li>Mississauga</li>
+                    <li>Brampton</li>
+                    <li>Caledon</li>
+                    <li>Etobicoke</li>
+                    <li>and other regions of Ontario</li>
+                </ul>
+            </div>
+            <div id="plates">
+                <div class="plates">Expertise</div>
+                <div class="plates">Convenient</div>
+                <div class="plates">Trustful</div>
+                <div class="plates">Safety</div>
+            </div>
+            <p class="botom">Whether it’s a flat tire, engine trouble, or regular maintenance, Cartech is Ontario’s go-to mobile car service. Our mission is simple: keep your vehicle safe, your schedule stress-free, and your drive worry-free.</p>
+            <p class="botom">Choose <a href="index.html">Cartech</a> — expert car care wherever you are in Ontario.</p>
+        </div>
+        <div class="faq">
+            <h2>Why choose - Cartech</h2>
+            <h3>Mobile Car & Tire Repair in Ontario</h3>
+            <p>At Cartech, we bring the garage to your driveway. Based in Ontario, our team of certified mobile mechanics and tire specialists make car care simple, fast, and stress-free. No more waiting in repair shop lines or towing your vehicle — our experts come directly to you, wherever you are.
+
+We combine advanced diagnostic tools, high-quality parts, and years of professional experience to deliver reliable mobile car repair and on-site tire swapping services. Whether it’s a flat tire, battery issue, oil change, or seasonal tire replacement, Cartech ensures your vehicle is back on the road safely and quickly.
+
+What sets Cartech apart is our commitment to convenience, transparency, and trust. With upfront pricing, same-day appointments, and service coverage across Ontario, we’re redefining how car repair should feel — simple, honest, and at your doorstep.
+
+Choose Cartech — your local partner for mobile auto repair done right, every time.</p>
+        </div>
+        <div id="newsletter">
+            <div id="newspanel">
+                <h3>Get in Touch with Cartech</h3>
+                <h4>Latest updates and automotive trends in Toronto, Mississuaga, Brampton & beyond</h4>
+                <h3>Subscribe to Cartech Newsletter</h3>
+                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                    <label>Email or Phone</label>
+                    <input type="email" name="source" placeholder="rajat@email.com | 5555 55555">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div id="cartech">
+                <h1>CARTECH</h1>
+                <h2>Ontario Based Mobile Car & Tire Repair Service</h2>
+                <h3>Serving in all over GTA (Toronto, Mississuaga, Brampton, Caledon, Etobicoke, and beyond)</h3>
+                <div id="contact-cartech">
+                    <h3>Contact Cartech:</h3>
+                    <p><i class="fa-solid fa-phone"></i> +1 (519) 301 7933</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@car-tech.ca</p>
+                    <div>
+                        <a href="https://www.instagram.com/cartech.ca?igsh=MWI0cnFtcnlwdHlidA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@cartech6?_t=ZS-90O5yadBwfJ&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/share/17MmHEFKXm/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>    
+            <div class="nav-foot">
+                <a href="#">Get Membership</a>
+                <a href="#">Login</a>
+                <a href="#">Signup</a>
+                <a href="#">More about Cartech</a>
+            </div>
+            <div class="nav-foot">
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="#footer">Contact</a>
+                <a href="about.html#faq">FAQ</a>
+                <a href="taq.html">Terms & Conditions</a>
+                <a href="taq.html">Privacy Policy</a>
+            </div>
+            <br>
+        </footer>  
+        <div id="stamp">
+            <p><span>&#169;</span><span id="cur-year"></span></p>
+            <p><span>Developed & Managed by <a href="https://mannancomputers.com">Mannan Computers | IT Consultancy & Digital Solutions</a></span></p>
+        </div>
+        <script>
+            let text = new Date().getFullYear();
+            document.getElementById('cur-year').textContent = text;
+        </script>
+    </body>
+</html>
