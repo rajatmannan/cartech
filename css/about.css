@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+}
+* {
+    margin: 0;
+}
+header {
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+#ham {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    background: none;
+    border: none;
+}
+#ham span {
+    display: block;
+    background-color: #3f4228;
+    margin: 3%;
+    width: 35px;
+    height: 3px;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 0vh;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    transition: 0.8s ease-in-out;
+}
+header nav a {
+    color: #fff;
+    background: #3f4228;
+    font: 38px Arial;
+    text-decoration: none;
+    padding: 28px;
+}
+#cartech-logo {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+#cartech-logo img {
+    width: 85px;
+    padding: 8px;
+}
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+#login a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#login i {
+    color: #3f4228;
+    font-size: 18px;
+}
+#login span {
+    font-size: 12px;
+    color: #3f4228;
+    padding: 6px;
+    font-family: Calibri;
+}
+#about-sec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+}
+#about-head {
+    background: #3f4228;
+    color: #fff;
+}
+#about-sec h1 {
+    font: 32px Verdana;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+#about-sec h2 {
+    margin-top: 8%;
+    font-size: 24px;
+    font-family: Calibri;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+#about-sec h3 {
+    width: 80%;
+    margin: 8% 10%;
+    line-height: 1.5;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+#about-para {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+}
+#about-para p {
+    color: #333;
+    font: 22px Calibri;
+    padding: 18px;
+    line-height: 1.5;
+    margin: 10% 0;
+}
+#about-para ul {
+    line-height: 2;
+    color: #333;
+    font: 20px Calibri;
+}
+#plates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+    margin: 18% 0;
+}
+.plates {
+    display: block;
+    background-color: #373a21;
+    width: 40%;
+    margin: 5%;
+    font-size: 24px;
+    font-family: Verdana;
+    color: #fff;
+    box-shadow: 2px 2px 6px #373a21;
+    height: 18vh;
+    line-height: 6;
+    text-align: center;
+}
+.botom {
+    font: 20px Calibri;
+    margin: 8%;
+    line-height: 1.5;
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+.faq h2 {
+    font-size: 36px;
+    font-family: Verdana;
+    color: #774d22;    
+    padding: 32px 0px;
+}
+.faq h3 {
+    font-size: 24px;
+    font-family: Verdana;
+}
+.faq p {
+    font: 19px calibri;
+    padding: 18px 0px;
+    line-height: 2;
+}
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background: url(../graphics/new-tires-brampton.jpg);
+    background-color: rgba(22, 20, 129, 0.5);
+    background-blend-mode: overlay;
+    align-items: center;
+    justify-content: center;
+}
+#newspanel {
+    width: 80%;
+    height: 70vh;
+    background: #3f4228;
+    font-family: Arial;
+}
+#newspanel h3 {
+    color: #c9cea8;
+    font-size: 26px;
+    margin: 4%;
+}
+#newspanel h4 {
+    color: #babba5;
+    margin: 4% 4% 10% 4%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#newspanel label {
+    color: #c9cea8;
+    margin: 8% 4%;   
+}
+#newspanel input {
+    border: 1px solid #fdffdd;
+    border-bottom: 4px solid #c9cea8;
+    /*background-color: #c5c5c5;*/
+    font-size: 14px;
+    width: 85%;
+    height: 35px;
+    margin: 8% 4%;
+    padding: 8px;
+}
+#newspanel input[type=submit] {
+    width: 45%;
+    height: 7vh;
+    background: #ff952e;
+    border: none;
+    box-shadow: 4px 4px 12px #373a21;
+    color: #fbffe2;
+    font-size: 18px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #373a21;
+    font-family: arial;
+}
+footer h1 {
+    margin-top: 25%;
+    border-top: 4px solid #c9cea8;
+    width: 30%;
+    margin-left: 10%;
+    color: #c9cea8;
+    padding: 4% 0%;
+}
+footer h2 {
+    color: #c9cea8;
+    margin: 4% 10%;
+    line-height: 1.5;
+}
+footer h3 {
+    margin: 4% 10%;
+    color: #c9cea8;
+    line-height: 1.5;
+}
+#contact-cartech {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    background: #774d22;
+}
+#contact-cartech p {
+    margin-left: 10%;
+    font-size: 24px;
+    margin-bottom: 4%;
+}
+#contact-cartech div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 8% 0;
+}
+#contact-cartech div a {
+    color: bisque;
+    font-size: 36px;
+}
+.nav-foot {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    font-family: arial;
+}
+.nav-foot a {
+    font-size: 18px;
+    color: #c9cea8;
+    margin: 2%;
+}
+#stamp {
+    color: #222;
+    background: #babba5;
+    font: 16px Calibri;
+    padding: 8px;
+}
+#stamp a {
+    color: #373a21;
+}
+@media screen and (min-width:720px) {
+    header {
+        background: url(../graphics/cartech-ontario.jpg);
+        justify-content: center;
+        position: relative;
+    }
+    #ham {
+        display: none;
+        overflow: hidden;
+    }
+    header nav { 
+        display: flex;
+        flex-direction: row;
+        width: 33%;
+        height: 10vh;
+        overflow: visible;
+        position: relative;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav a:nth-child(1) {
+        display: none;
+    }
+    header nav a {
+        color: #333;
+        background: rgba(255,255,255,0.7);
+        border-radius: 22px;
+        font: 14px Arial;
+        width: 100px;
+        height: 30px;
+        padding: 0px;
+        text-align: center;
+        line-height: 2;
+        margin: 9% 1%;
+        transition: 0.5s;
+    }
+    header nav a:hover {
+        background: rgba(255,255,255,1);
+        border: 2px solid #3f4228;
+        width: 125px;
+        font-weight: 600;
+    }
+    #cartech-logo {
+        width: 33%;
+        align-items: center;
+    }
+    #login {
+        /*background: #373a21;*/
+        padding: 8px;
+        width: 33%;
+        border-radius: 21px;
+        align-items: center;
+    }
+    #login a {
+        background: #73765d;
+        width: 30%;
+        height: 9vh;
+        border-radius: 12px;
+    }
+    #login i {
+        color: #c9cea8;
+    }
+    #login span {
+        color: #c9cea8;
+    }
+#about-sec {
+    margin-top: 0%;
+    margin-bottom: 8%;
+}
+#about-sec h1 {
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about-sec h2 {
+    margin-top: 2%;
+}
+#about-sec h3 {
+    margin-top: 3%;
+}
+#about-para {
+    width: 60%;
+    align-self: center;
+    margin-top: 0;
+}
+#about-para p {
+    margin: 2% 0 0 0;
+}
+#about-para ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#plates {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 6px #666;
+}
+.plates {
+    width: 20%;
+    margin: 2%;
+    background-color: #fff;
+    color: #373a21;
+    box-shadow: 0px 0px 0px #fff;
+    border-left: 4px solid #373a21;
+    transition: 0.6s;
+    margin-bottom: 0;
+}
+.plates:hover {
+    background: #373a21;
+    color: #fff;
+}
+.botom {
+    width: 60%;
+    margin-top: 0;
+    background: #774d22;
+    color: #fff;
+    margin-left: 15%;
+    padding: 32px;
+    border-radius: 12px;
+}
+.botom a {
+    color: #fbffe2;
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+.faq h2 {
+    font-size: 24px;
+    font-family: verdana;
+    color: #774d22;
+}
+.faq h3 {
+    font: 18px Verdana;
+    color: #222;
+}   
+.faq p {
+    font: 18px Calibri;
+    color: #222;
+    line-height: 1.9;
+}
+#newsletter {
+    background-size: cover;
+    height: 90vh;
+}
+#newspanel {
+    width: 40%;
+    margin-top: 3%;
+}
+#newspanel input[type=submit] {
+    width: 145px;
+    margin-top: 0;
+}
+footer {
+    flex-direction: row;
+}
+footer div h1 {
+    font-size: 48px;
+}
+#contact-cartech {
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 12px;
+    margin-bottom: 8%
+}
+.nav-foot {
+    width: 20%;
+}
+.nav-foot a {
+    margin: 0;
+    padding: 8px;
+}
+}
