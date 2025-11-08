@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    box-shadow: 2px 3px 6px #999;
+    height: 10vh;
+    position: fixed;    
+    background: #fff;
+}
+header a img {
+    width: 25%;
+    margin: 4%;
+}
+header button {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    margin-top: 2vh;
+    margin-right: 3vh;
+}
+header button span {
+    display: block;
+    width: 45px;
+    height: 4px;
+    margin-top: 8px;
+    border-radius: 6px;
+    background: #373a21;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+    position: fixed;
+    top:0;
+    right: 0;
+    background: #373a21;
+    height: 100vh;
+    transition: 0.6s ease-in-out;
+    z-index: 2;
+}
+nav a {
+    text-align: right;
+    margin: 10%;
+    font: 28px Calibri;
+    color: #e6e7c1;
+    text-decoration: none;
+}
+nav a:nth-child(1) {
+    font-size: 58px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#base1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    background: linear-gradient(to right bottom, #373a21, rgb(31, 26, 3));   
+}
+#base1 h3 {
+    font: 24px Calibri;
+    font-weight: 400;
+    padding: 4%;
+    color: #f1f1f1;
+}
+#base1 h1 {
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    font: 36px Calibri;
+    padding: 4%;
+}
+#base1 h3:nth-child(1) {
+    margin-top: 15vh;
+}
+#base2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #373a21;
+    box-shadow: 0 -15px 100px -15px rgb(16, 48, 3);
+}
+.base2banners {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin-top: 18px;
+}
+.base2banners i {
+    color: #fff;
+    font-size: 27px;
+    padding: 18px;
+}
+.base2banners h3 {
+    color: #fff;
+    font: 18px Calibri;
+    text-align: center;
+    font-weight: 600;
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 5vh;
+}
+#services h1 {
+    font-size: 36px;
+    font-family: Verdana;
+    margin: 10%;
+    color: transparent;
+    background: linear-gradient(to right bottom, #373a21, #7f835e, #373a21, #222);
+    background-clip: text;
+    
+}
+.serv-plate {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    box-shadow: 2px 2px 6px #999;
+    margin: 4% 0;
+}
+.serv-plate span {
+    color: orangered;
+    font: 16px Calibri;
+    padding: 8px;
+}   
+.ims {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 30vh;
+    align-self: center;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.serv-plate h2 {
+    padding: 10px;
+    font: 22px Arial;
+    color: #373a21;
+    font-weight: 600;
+}
+.serv-plate p {
+    padding: 10px;
+    font: 16px Calibri;
+    color: #333;
+}
+.serv-plate div {
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+.serv-plate div a {
+    font: 18px calibri;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+}
+.serv-plate div a:nth-child(2) {
+    background-color: #373a21;
+}
+#baseGallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#baseGallery h1 {
+    font-size: 36px;
+    font-family: Verdana;
+    margin: 10%;
+    color: transparent;
+    background: linear-gradient(to right bottom, #373a21, #7f835e, #373a21, #222);
+    background-clip: text;
+}
+#baseGallery h2 {
+    text-align: center;
+    font: 20px Calibri;
+    color: #373a21;
+    width: 80%;
+}
+#gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.image {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0;
+    box-shadow: 2px 2px 6px #999;
+}
+.image img {
+    width: 90%;
+    border-radius: 12px;
+    margin: 5% 0;
+}
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background: url(../graphics/new-tires-brampton.jpg);
+    background-color: rgba(22, 20, 129, 0.5);
+    background-blend-mode: overlay;
+    align-items: center;
+    justify-content: center;
+}
+#newspanel {
+    width: 80%;
+    height: 70vh;
+    background: #3f4228;
+    font-family: Arial;
+}
+#newspanel h3 {
+    color: #c9cea8;
+    font-size: 26px;
+    margin: 4%;
+}
+#newspanel h4 {
+    color: #babba5;
+    margin: 4% 4% 10% 4%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#newspanel label {
+    color: #c9cea8;
+    margin: 8% 4%;   
+}
+#newspanel input {
+    border: 1px solid #fdffdd;
+    border-bottom: 4px solid #c9cea8;
+    /*background-color: #c5c5c5;*/
+    font-size: 14px;
+    width: 85%;
+    height: 35px;
+    margin: 8% 4%;
+    padding: 8px;
+}
+#newspanel input[type=submit] {
+    width: 45%;
+    height: 7vh;
+    background: #ff952e;
+    border: none;
+    box-shadow: 4px 4px 12px #373a21;
+    color: #fbffe2;
+    font-size: 18px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #373a21;
+    font-family: arial;
+}
+footer h1 {
+    margin-top: 25%;
+    border-top: 4px solid #c9cea8;
+    width: 30%;
+    margin-left: 10%;
+    color: #c9cea8;
+    padding: 4% 0%;
+}
+footer h2 {
+    color: #c9cea8;
+    margin: 4% 10%;
+    line-height: 1.5;
+}
+footer h3 {
+    margin: 4% 10%;
+    color: #c9cea8;
+    line-height: 1.5;
+}
+#contact-cartech {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    background: #774d22;
+}
+#contact-cartech p {
+    margin-left: 10%;
+    font-size: 24px;
+    margin-bottom: 4%;
+}
+#contact-cartech div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 8% 0;
+}
+#contact-cartech div a {
+    color: bisque;
+    font-size: 36px;
+}
+.nav-foot {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    font-family: arial;
+}
+.nav-foot a {
+    font-size: 18px;
+    color: #c9cea8;
+    margin: 2%;
+}
+#stamp {
+    color: #222;
+    background: #babba5;
+    font: 16px Calibri;
+    padding: 8px;
+}
+#stamp a {
+    color: #373a21;
+}
+@media screen and (min-width:720px) {
+    header a img {
+        width: 85px;
+        margin-left: 88px;
+    }
+    header button {
+        display: none;
+    }
+    #che {
+        flex-direction: row;
+        width: 100%;
+        background: none;
+        right: 0;
+        margin-top: 2.5%;
+        margin-right: -485px;
+    }
+    nav a {
+        color: #222;
+        font-size: 18px;
+        font-family: calibri;
+        margin: 0 4%;
+    }
+    nav a:nth-child(1) {
+        display: none;
+    }
+    #base1 {
+        background: url(../graphics/cartech-ontario.jpg);
+        width: 100%;
+        background-position: center;
+        margin-left: 0;
+        background-color: rgba(0,0,0,0.7);
+        background-blend-mode: color-dodge;
+    }
+    #base1 h3 {
+        padding: 0;
+        margin-left: 9%;
+        
+    }
+    #base1 h1 {
+        width: 60%;
+        margin-left: 5%;
+        font-size: 48px;
+    }
+    #base1 h3:nth-child(2) {
+        margin-bottom: 10%;
+    }
+    #base2 {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .base2banners {
+        width: 25%;
+        border-right: 6px solid #fff;
+        border-radius: 8px;
+        margin: 5% 0;
+    }
+    .base2banners:nth-child(4) {
+        border: none;
+    }
+    #services {
+        align-items: flex-start;
+    }
+    #services h1 {
+        font-size: 48px;
+        font-family: Verdana;
+        margin: 5%;
+        width: 60%;
+        color: transparent;
+        background: linear-gradient(to right bottom, #373a21, #4f5236, #545a26, #222);
+        background-clip: text;
+    }
+    #seer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .serv-plate {
+        width: 25%;
+        margin: 2%;
+    }
+    #gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        align-self: center;
+        margin-bottom: 5%;
+    }
+    #baseGallery h1 {
+        margin: 0;
+        margin-top: 10%;
+    }
+    #baseGallery h2 {
+        margin-bottom: 4%;
+    }
+    .image {
+        width: 33.33%;
+        margin: 0;
+    }
+    #newsletter {
+    background-size: cover;
+    height: 90vh;
+}
+#newspanel {
+    width: 40%;
+    margin-top: 3%;
+}
+#newspanel input[type=submit] {
+    width: 145px;
+    margin-top: 0;
+}
+footer {
+    flex-direction: row;
+}
+footer div h1 {
+    font-size: 48px;
+}
+#contact-cartech {
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 12px;
+    margin-bottom: 8%
+}
+.nav-foot {
+    width: 20%;
+}
+.nav-foot a {
+    margin: 0;
+    padding: 8px;
+}
+}
